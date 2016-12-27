@@ -2,3 +2,4 @@
 
 export(DREAM_Evaluation)
 export(change_network_format)
+export(load_dream_network)
