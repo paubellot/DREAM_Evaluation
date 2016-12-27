@@ -10,7 +10,8 @@ Maintainer: Joe Developer <Joe.Developer@some.domain.net>
 Description: This package allows one to evaluate a GRN inference against 
  Golden Standard using the DREAM framework. It also contains DREAM4 data.
 Depends: R (>= 3.1.0)
-Imports: pracma
+Imports: pracma,Rcpp (>= 0.12.8)
 License: GPL (>= 2)
-LazyData: true
+LazyData: TRUE
+LinkingTo: Rcpp
 RoxygenNote: 5.0.1.9000

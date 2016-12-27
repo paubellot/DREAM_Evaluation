@@ -35,7 +35,7 @@ DREAM_Evaluation <- function(gold_positives, prediction_raw){
     idx <- which(gold_positives[,3]==1);
     gold_positives <- gold_positives[idx,];    #make sure they are really positives
     
-    aux <- edgelist2gs(gold_positives)
+    aux <- .edgelist2gs(gold_positives)
     gold_complete <- aux[["gold_complete"]]
     G <-  aux[["G"]]
     H <- Matrix::Matrix(G>0,sparse=TRUE);	# just the positives

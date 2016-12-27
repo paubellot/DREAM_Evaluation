@@ -1,4 +1,7 @@
-.Rproj.user
-.Rhistory
-.Ruserdata
-.DS_Store
+*.Rproj.user
+*.Rhistory
+*.Ruserdata
+*.DS_Store
+*.so
+*.o
+*.history
