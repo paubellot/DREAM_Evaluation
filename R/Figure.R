@@ -16,8 +16,8 @@
 #' net <- change_network_format(net)
 #' GS <- change_network_format(GS)
 #' Ev <- DREAM_Evaluation(GS,net)
-#' figure(Ev)
-figure <- function(ev,fig="pr",two=FALSE,...){
+#' Figure(Ev)
+Figure <- function(ev,fig="pr",two=FALSE,...){
   
     if(fig=="pr"){
         if(two){
