@@ -1,12 +1,9 @@
 Package: DREAM
 Title: Evaluation of GRN inference against Golden Standard with DREAM framework.
 Version: 0.1
-Authors@R: c(person("Joe", "Developer", role = c("aut", "cre"),
-                     email = "Joe.Developer@some.domain.net"),
-              person("Pat", "Developer", role = "aut"),
-              person("A.", "User", role = "ctb",
-                     email = "A.User@whereever.net"))
-Maintainer: Joe Developer <Joe.Developer@some.domain.net>
+Authors@R: c(person("Daniel", "Marbach", role = c("aut"),
+                     email = "daniel.marb...@unil.ch"))
+Maintainer: Pau Bellot <pau.bellot@upc.edu>
 Description: This package allows one to evaluate a GRN inference against 
  Golden Standard using the DREAM framework. It also contains DREAM4 data.
 Depends: R (>= 3.1.0)
